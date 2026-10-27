@@ -1,0 +1,12 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  tp1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python -m venv .venv && . .venv/bin/activate && pip install pandas scikit-learn pytest
+      - run: . .venv/bin/activate && pytest -q
