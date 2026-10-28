@@ -1,4 +1,4 @@
-# sentiment-app : dépôt du binôme
+﻿# sentiment-app : dépôt du binôme
 
 Application fil rouge du cours *Développement et déploiement d'applications intelligentes*.
 Ce dépôt grandit chaque semaine ; la semaine 1 met en place le cadrage et l'environnement.
@@ -42,5 +42,5 @@ sentiment-app/
 
 | Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 |
 | --- | --- | --- | --- |
-| Membre A | [Nom 1] | [@login] | |
-| Membre B | [Nom 2] | [@login] | |
+| Membre A | Naaim Manal | [@manalnaaim](https://github.com/manalnaaim) | Cadrage cas 3 + tests + check_setup + vérification CI |
+| Membre B | Abdelali Rania | [@Rania20042004](https://github.com/Rania20042004) | Cadrage cas 1 et 2 + dépôt GitHub + setup | 
